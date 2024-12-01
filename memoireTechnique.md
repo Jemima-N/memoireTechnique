@@ -18,9 +18,9 @@ Explication de l'approche adoptée pour répondre aux exigences du projet.
 ## Proposition 
 ## Proposition technique
 ### Description de la topologie réseau choisie
-Pour ce projet, nous avons opté pour une **topologie réseau hiérarchique en arborescence** afin de garantir une organisation claire et scalable. Cette structure se compose de trois niveaux distincts : **Core**, **Distribution**, et **Access**.
+Pour ce projet, nous avons opté pour une **topologie réseau hiérarchique en arborescence** autrement appellée, **topologie en étoile centralisée** afin de garantir une organisation claire et scalable. Cette structure se compose de trois niveaux distincts : **Core**, **Distribution**, et **Access**.
 #### 1. Niveau Core
-Le niveau Core représente le cœur du réseau. Il est composé de plusieurs switches interconnectés, offrant :
+Le niveau Core représente le cœur du réseau. Il est composé de plusieurs switches de niveau 3 interconnectés, offrant :
 - **Redondance** : Chaque switch de distribution est connecté à plusieurs switches Core pour éviter toute panne critique.
 - **Haute disponibilité** : Le trafic entre les étages et les sous-réseaux est optimisé pour réduire les goulots d'étranglement.
 #### 2. Niveau Distribution
